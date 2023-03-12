@@ -44,9 +44,4 @@ async def nna周年抽獎2(ctx):
 async def nna周年抽獎3(ctx):
     await ctx.send(random.choice(member_list_of_below50))
 
-@client.command()
-async def tag3064(ctx):
-    img = discord.File('C:\\Users\\strelitz\\Downloads\\3064.jpg')
-    await ctx.send(file = img)
-
 client.run(TOKEN)
