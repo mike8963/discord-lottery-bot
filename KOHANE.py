@@ -2,7 +2,7 @@ from discord.ext import commands
 import discord
 import random
 
-TOKEN = "MTA4MzUxNjk5MDg5NzAwNDYzNQ.G8gShF.wTyAjlQv91aKh_4zE0lnyJFwzUSbL5CAq_Ogs8"
+TOKEN = "MY BOT TOKEN"
 intents = discord.Intents.default()
 intents.message_content = True
 client = commands.Bot(command_prefix="&", intents=intents)
